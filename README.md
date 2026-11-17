@@ -5,17 +5,13 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-segmentation-5c3ee8)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Take one photo, hear what's in it.** A spoken item identifier for people who
+A spoken item identifier for people who
 are blind or have low vision. It finds every item in a photo, identifies each
 one with a fine-tuned ResNet-18, and says the answer out loud - including how
 sure it is. The first focus is **food and pantry items**, where cans, jars,
 bottles and spice containers often feel alike and differ mainly by their
 printed label. It does the same job as the product-scan mode in apps like
 Seeing AI.
-
-<p align="center">
-  <img src="docs/images/detected_items_check.png" alt="One photo split into three separately identified items: a lemon, an orange and an apricot" width="560">
-</p>
 
 ## What it does
 
