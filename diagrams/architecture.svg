@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1732" height="1186" viewBox="0 0 1732 1186" font-family="Arial, Helvetica, sans-serif">
+<rect width="1732" height="1186" fill="#FFFFFF"/>
+<text x="56" y="72" font-size="17" font-weight="bold" letter-spacing="2.4" fill="#0E7C86">ARCHITECTURE</text>
+<text x="56" y="126" font-size="42" font-weight="bold" fill="#1F2933">Who Calls What</text>
+<text x="56" y="166" font-size="17" fill="#6B7A87">Seven controllers. Every algorithm lives in model/, every output in view/, and no controller calls another.</text>
+<text x="56" y="192" font-size="15" fill="#6B7A87">A filled dot means that controller imports and calls that function directly.</text>
+<rect x="620" y="186" width="118" height="34" rx="6" fill="#D6EBED"/>
+<text x="679.0" y="208" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#0E7C86">segmentation.py</text>
+<rect x="744" y="186" width="366" height="34" rx="6" fill="#D6EBED"/>
+<text x="927.0" y="208" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#0E7C86">classifier.py</text>
+<rect x="1116" y="186" width="118" height="34" rx="6" fill="#D6EBED"/>
+<text x="1175.0" y="208" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#0E7C86">prediction.py</text>
+<rect x="1240" y="186" width="180" height="34" rx="6" fill="#E3E9F0"/>
+<text x="1330.0" y="208" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#4A6480">speech_view.py</text>
+<rect x="1426" y="186" width="180" height="34" rx="6" fill="#E3E9F0"/>
+<text x="1516.0" y="208" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#4A6480">debug_view.py</text>
+<rect x="56" y="206" width="16" height="16" rx="3" fill="#D6EBED"/>
+<text x="80" y="219" font-size="13.5" fill="#6B7A87">model/</text>
+<rect x="148" y="206" width="16" height="16" rx="3" fill="#E3E9F0"/>
+<text x="172" y="219" font-size="13.5" fill="#6B7A87">view/</text>
+<text x="651.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 651.0 422)">segment_photo</text>
+<text x="713.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 713.0 422)">segment_single_item_photo</text>
+<text x="775.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 775.0 422)">build_item_classifier</text>
+<text x="837.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 837.0 422)">build_configurable_classifier</text>
+<text x="899.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 899.0 422)">load_item_data</text>
+<text x="961.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 961.0 422)">build_train_val_loaders</text>
+<text x="1023.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1023.0 422)">train_item_classifier</text>
+<text x="1085.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1085.0 422)">evaluate_classifier</text>
+<text x="1147.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1147.0 422)">load_trained_classifier</text>
+<text x="1209.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1209.0 422)">predict_from_image</text>
+<text x="1271.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1271.0 422)">create_speech_engine</text>
+<text x="1333.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1333.0 422)">announce_match</text>
+<text x="1395.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1395.0 422)">announce_no_items_found</text>
+<text x="1457.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1457.0 422)">plot_detected_items</text>
+<text x="1519.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1519.0 422)">plot_labeled_session</text>
+<text x="1581.0" y="422" font-size="14.5" fill="#1F2933" transform="rotate(-60 1581.0 422)">plot_confusion_summary</text>
+<rect x="40" y="458" width="1588" height="74" fill="#F4F7F8"/>
+<text x="56" y="491.0" font-size="17" font-weight="bold" fill="#1F2933">single_item_reference_controller</text>
+<text x="56" y="515.0" font-size="14" fill="#6B7A87">raw_singles -> reference_raw</text>
+<circle cx="651.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="713.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="775.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="837.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="899.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="961.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1023.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1085.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1147.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1209.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1271.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1333.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1395.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1457.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1519.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<circle cx="1581.0" cy="495.0" r="3" fill="#C7D0D6"/>
+<text x="56" y="565.0" font-size="17" font-weight="bold" fill="#1F2933">reference_capture_controller</text>
+<text x="56" y="589.0" font-size="14" fill="#6B7A87">grid photo -> reference_raw</text>
+<circle cx="651.0" cy="569.0" r="10.5" fill="#0E7C86"/>
+<circle cx="713.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="775.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="837.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="899.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="961.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1023.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1085.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1147.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1209.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1271.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1333.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1395.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1457.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<circle cx="1519.0" cy="569.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1581.0" cy="569.0" r="3" fill="#C7D0D6"/>
+<rect x="40" y="606" width="1588" height="74" fill="#F4F7F8"/>
+<text x="56" y="639.0" font-size="17" font-weight="bold" fill="#1F2933">reference_crop_controller</text>
+<text x="56" y="663.0" font-size="14" fill="#6B7A87">reference_raw -> reference</text>
+<circle cx="651.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="713.0" cy="643.0" r="10.5" fill="#0E7C86"/>
+<circle cx="775.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="837.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="899.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="961.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1023.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1085.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1147.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1209.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1271.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1333.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1395.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1457.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1519.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<circle cx="1581.0" cy="643.0" r="3" fill="#C7D0D6"/>
+<text x="56" y="713.0" font-size="17" font-weight="bold" fill="#1F2933">training_controller</text>
+<text x="56" y="737.0" font-size="14" fill="#6B7A87">reference -> item_classifier.pth</text>
+<circle cx="651.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="713.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="775.0" cy="717.0" r="10.5" fill="#0E7C86"/>
+<circle cx="837.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="899.0" cy="717.0" r="10.5" fill="#0E7C86"/>
+<circle cx="961.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1023.0" cy="717.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1085.0" cy="717.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1147.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1209.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1271.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1333.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1395.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1457.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1519.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<circle cx="1581.0" cy="717.0" r="3" fill="#C7D0D6"/>
+<rect x="40" y="754" width="1588" height="74" fill="#F4F7F8"/>
+<text x="56" y="787.0" font-size="17" font-weight="bold" fill="#1F2933">experiment_controller</text>
+<text x="56" y="811.0" font-size="14" fill="#6B7A87">hyperparameter sweep</text>
+<circle cx="651.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="713.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="775.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="837.0" cy="791.0" r="10.5" fill="#0E7C86"/>
+<circle cx="899.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="961.0" cy="791.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1023.0" cy="791.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1085.0" cy="791.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1147.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1209.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1271.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1333.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1395.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1457.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1519.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<circle cx="1581.0" cy="791.0" r="3" fill="#C7D0D6"/>
+<text x="56" y="861.0" font-size="17" font-weight="bold" fill="#1F2933">evaluation_controller</text>
+<text x="56" y="885.0" font-size="14" fill="#6B7A87">query_labeled -> top-1 accuracy</text>
+<circle cx="651.0" cy="865.0" r="10.5" fill="#0E7C86"/>
+<circle cx="713.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="775.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="837.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="899.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="961.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1023.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1085.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1147.0" cy="865.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1209.0" cy="865.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1271.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1333.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1395.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1457.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1519.0" cy="865.0" r="3" fill="#C7D0D6"/>
+<circle cx="1581.0" cy="865.0" r="10.5" fill="#0E7C86"/>
+<rect x="40" y="902" width="1588" height="74" fill="#F4F7F8"/>
+<text x="56" y="935.0" font-size="17" font-weight="bold" fill="#1F2933">prediction_controller</text>
+<text x="56" y="959.0" font-size="14" fill="#6B7A87">photo or folder -> spoken result</text>
+<circle cx="651.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="713.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="775.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="837.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="899.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="961.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="1023.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="1085.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="1147.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1209.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1271.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1333.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1395.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1457.0" cy="939.0" r="10.5" fill="#0E7C86"/>
+<circle cx="1519.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<circle cx="1581.0" cy="939.0" r="3" fill="#C7D0D6"/>
+<rect x="616" y="466" width="988" height="58" rx="8" fill="none" stroke="#C9483F" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="1116.0" y="500.0" font-size="14" font-style="italic" text-anchor="middle" fill="#C9483F">no model/ or view/ calls — it only files photos</text>
+<rect x="40" y="992" width="1588" height="104" rx="8" fill="#FBE6E3"/>
+<text x="60" y="1018" font-size="14.5" font-weight="bold" fill="#8E2F27">Three public functions exist with no caller — deliberately, not by oversight</text>
+<text x="60" y="1044" font-size="14" fill="#1F2933">announce_top_k — the confidence-aware wording in announce_match already covers the single-result case</text>
+<text x="60" y="1066" font-size="14" fill="#1F2933">predict_from_path — segmentation hands prediction an in-memory crop, so no controller needs the file-based form</text>
+<text x="60" y="1088" font-size="14" fill="#1F2933">build_transform — called inside model/, by load_item_data and predict_from_image, never by a controller</text>
+</svg>

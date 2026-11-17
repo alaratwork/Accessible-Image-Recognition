@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1500" viewBox="0 0 1180 1500" font-family="Arial, Helvetica, sans-serif">
+<rect width="1180" height="1500" fill="#ffffff"/>
+<defs><marker id="tip" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#8fa0aa"/></marker></defs>
+<text x="40" y="46" font-size="16" font-weight="bold" letter-spacing="2" fill="#0e7c86">WHAT HAPPENS WHEN IT RUNS</text>
+<rect x="135.0" y="51.0" width="330" height="78" rx="10" fill="#dbeef0" stroke="#0e7c86" stroke-width="2"/>
+<text x="300" y="85" font-size="15" fill="#1f2933" text-anchor="middle">you photograph one or more pantry items</text>
+<text x="300" y="105" font-size="15" fill="#1f2933" text-anchor="middle">on a plain, dark surface</text>
+<rect x="135.0" y="171.0" width="330" height="78" rx="10" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="300" y="205" font-size="15" fill="#1f2933" text-anchor="middle">the program looks for the items</text>
+<text x="300" y="225" font-size="15" fill="#1f2933" text-anchor="middle">in the photo</text>
+<rect x="135.0" y="291.0" width="330" height="78" rx="10" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="300" y="325" font-size="15" fill="#1f2933" text-anchor="middle">it separates each item into its</text>
+<text x="300" y="345" font-size="15" fill="#1f2933" text-anchor="middle">own small picture</text>
+<polygon points="300,412.0 425.0,460 300,508.0 175.0,460" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="300" y="455" font-size="15" fill="#1f2933" text-anchor="middle">did it find</text>
+<text x="300" y="475" font-size="15" fill="#1f2933" text-anchor="middle">anything?</text>
+<rect x="625.0" y="421.0" width="330" height="78" rx="10" fill="#fbe6e3" stroke="#c9483f" stroke-width="2"/>
+<text x="790" y="455" font-size="15" fill="#1f2933" text-anchor="middle">it says so out loud, and asks</text>
+<text x="790" y="475" font-size="15" fill="#1f2933" text-anchor="middle">for a plainer background</text>
+<rect x="135.0" y="561.0" width="330" height="78" rx="10" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="300" y="595" font-size="15" fill="#1f2933" text-anchor="middle">for each item it found: compare</text>
+<text x="300" y="615" font-size="15" fill="#1f2933" text-anchor="middle">against the nine items it learned</text>
+<polygon points="300,682.0 425.0,730 300,778.0 175.0,730" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="300" y="725" font-size="15" fill="#1f2933" text-anchor="middle">is it sure</text>
+<text x="300" y="745" font-size="15" fill="#1f2933" text-anchor="middle">enough?</text>
+<rect x="40.0" y="831.0" width="330" height="78" rx="10" fill="#dff0e4" stroke="#3f7d5c" stroke-width="2"/>
+<text x="205" y="865" font-size="15" fill="#1f2933" text-anchor="middle">it names the item</text>
+<text x="205" y="885" font-size="15" fill="#1f2933" text-anchor="middle">out loud</text>
+<rect x="455.0" y="831.0" width="330" height="78" rx="10" fill="#fbe6e3" stroke="#c9483f" stroke-width="2"/>
+<text x="620" y="865" font-size="15" fill="#1f2933" text-anchor="middle">it says it is not sure, gives its best</text>
+<text x="620" y="885" font-size="15" fill="#1f2933" text-anchor="middle">guess, and asks you to double check</text>
+<rect x="100.0" y="961.0" width="400" height="78" rx="10" fill="#dbeef0" stroke="#0e7c86" stroke-width="2"/>
+<text x="300" y="995" font-size="15" fill="#1f2933" text-anchor="middle">every answer ends the same way: this is a</text>
+<text x="300" y="1015" font-size="15" fill="#1f2933" text-anchor="middle">prototype, not a verified identification</text>
+<line x1="300" y1="129" x2="300" y2="171" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<line x1="300" y1="249" x2="300" y2="291" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<line x1="300" y1="369" x2="300" y2="412" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<line x1="425" y1="460" x2="625" y2="460" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<text x="541.0" y="454.0" font-size="13" fill="#5b6b76" text-anchor="middle">no</text>
+<line x1="300" y1="508" x2="300" y2="561" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<text x="316.0" y="528.5" font-size="13" fill="#5b6b76" text-anchor="middle">yes</text>
+<line x1="300" y1="639" x2="300" y2="682" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<line x1="262" y1="768" x2="215" y2="831" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<text x="254.5" y="793.5" font-size="13" fill="#5b6b76" text-anchor="middle">yes</text>
+<line x1="338" y1="768" x2="560" y2="831" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<text x="465.0" y="793.5" font-size="13" fill="#5b6b76" text-anchor="middle">no</text>
+<line x1="205" y1="909" x2="260" y2="961" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<line x1="620" y1="909" x2="400" y2="961" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<rect x="40" y="1180" width="1100" height="200" rx="12" fill="none" stroke="#c7d0d6" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="62" y="1212" font-size="14" font-weight="bold" fill="#5b6b76">what it learned from, once, before any of this</text>
+<rect x="30.0" y="1261.0" width="290" height="78" rx="10" fill="#dbeef0" stroke="#0e7c86" stroke-width="2"/>
+<text x="175" y="1295" font-size="15" fill="#1f2933" text-anchor="middle">photos of the nine</text>
+<text x="175" y="1315" font-size="15" fill="#1f2933" text-anchor="middle">items, taken by hand</text>
+<rect x="355.0" y="1261.0" width="290" height="78" rx="10" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="500" y="1295" font-size="15" fill="#1f2933" text-anchor="middle">each photo trimmed</text>
+<text x="500" y="1315" font-size="15" fill="#1f2933" text-anchor="middle">down to just the item</text>
+<rect x="705.0" y="1261.0" width="290" height="78" rx="10" fill="#f2f5f6" stroke="#5b6b76" stroke-width="2"/>
+<text x="850" y="1295" font-size="15" fill="#1f2933" text-anchor="middle">it studies those and remembers</text>
+<text x="850" y="1315" font-size="15" fill="#1f2933" text-anchor="middle">what each item looks like</text>
+<line x1="320" y1="1300" x2="352" y2="1300" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<line x1="648" y1="1300" x2="702" y2="1300" stroke="#8fa0aa" stroke-width="2" marker-end="url(#tip)"/>
+<path d="M 850 1261 C 850 1120, 700 700, 470 600" fill="none" stroke="#8fa0aa" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#tip)"/>
+<text x="880" y="1120" font-size="13" fill="#5b6b76">this is the memory</text>
+<text x="880" y="1140" font-size="13" fill="#5b6b76">the comparison uses</text>
+</svg>

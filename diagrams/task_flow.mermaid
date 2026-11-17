@@ -1,0 +1,23 @@
+flowchart LR
+    classDef user fill:#dce8f7,stroke:#1f5fae,stroke-width:2px,color:#0e3763
+    classDef system fill:#eef2f0,stroke:#5c6b8a,stroke-width:1.5px,color:#16261f
+    classDef decision fill:#f6ecd6,stroke:#b98518,stroke-width:2px,color:#5c410d
+    classDef limitation fill:#f6e3de,stroke:#b8452f,stroke-width:1.5px,color:#7a2c1b,stroke-dasharray: 4 3
+
+    GATHER["1. gather item(s)"]:::user
+    POSITION["2. position on a flat,<br/>contrasting surface"]:::user
+    CAPTURE["3. capture one photo"]:::user
+    SEGMENT["4. segment each item<br/>from background"]:::system
+    EMBED["5. classify against<br/>known items"]:::system
+    CONF{"confident?"}:::decision
+    HIGH["6a. speak item name<br/>directly"]:::system
+    LOW["6b. speak best guess +<br/>low-confidence caveat"]:::system
+    DISCLAIM["7. always append:<br/>prototype, not verified"]:::system
+    REPEAT["8. repeat announcement,<br/>or capture next item"]:::user
+    LIMIT["v1 scope: single static photo only.<br/>real-time audio framing guidance<br/>(so a user could verify positioning<br/>without sight) is a natural v2 idea -<br/>out of scope here, no live video"]:::limitation
+
+    GATHER --> POSITION --> CAPTURE --> SEGMENT --> EMBED --> CONF
+    CONF -- yes --> HIGH --> DISCLAIM
+    CONF -- no --> LOW --> DISCLAIM
+    DISCLAIM --> REPEAT
+    POSITION -.-> LIMIT

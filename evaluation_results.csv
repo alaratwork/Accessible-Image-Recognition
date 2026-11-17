@@ -1,0 +1,6 @@
+photo,expected_items,expected_count,detected_count,predicted_items,correct,missed,spurious,confidences
+apricot+lemon+orange_1.jpeg,apricot+lemon+orange,3,3,lemon+orange+apricot,3,,,0.871 0.755 0.698
+apricot+lemon+orange_2.jpg,apricot+lemon+orange,3,3,lemon+orange+apricot,3,,,0.866 0.284 0.623
+apricot_1.jpg,apricot,1,1,apricot,1,,,0.573
+lemon+orange_1.jpg,lemon+orange,2,2,lemon+orange,2,,,0.811 0.397
+lemon_1.jpg,lemon,1,1,lemon,1,,,0.624

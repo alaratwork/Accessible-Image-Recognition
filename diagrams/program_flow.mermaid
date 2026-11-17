@@ -1,0 +1,48 @@
+%% Spoken Pantry Identifier
+%% final project: accessible pantry item identifier
+%% Does: describe what happens when the program runs, in plain language, with
+%%       no file names, no function names and no jargon
+%% Does not: describe the code. final_project_ia.mermaid shows where the code
+%%       came from, and ARCHITECTURE.md shows which function calls which.
+%%       this one is for explaining the thing to somebody who does not code
+%% Reasoning: every other diagram in this project answers "how is it built".
+%%       none of them answered "what does it actually do", which is the
+%%       question anyone asks first. written so it can be read out loud.
+
+flowchart TD
+    classDef user fill:#dbeef0,stroke:#0e7c86,stroke-width:2px,color:#0a3f45
+    classDef work fill:#f2f5f6,stroke:#5b6b76,stroke-width:1.5px,color:#1f2933
+    classDef good fill:#dff0e4,stroke:#3f7d5c,stroke-width:2px,color:#1f4a34
+    classDef careful fill:#fbe6e3,stroke:#c9483f,stroke-width:2px,color:#8e2f27
+
+    A["you photograph one or more<br/>pantry items on a plain,<br/>dark surface"]:::user
+    B["the program looks for the<br/>items in the photo"]:::work
+    C["it separates each item<br/>into its own small picture"]:::work
+    D{"did it find<br/>anything?"}:::work
+    E["it says so out loud, and asks<br/>for a plainer background"]:::careful
+    F["for each item it found:<br/>compare against the nine<br/>items it has learned"]:::work
+    G{"is it sure<br/>enough?"}:::work
+    H["it names the item out loud"]:::good
+    I["it says it is not sure, gives<br/>its best guess, and asks you<br/>to double check"]:::careful
+    J["every answer ends the same way:<br/>this is a prototype, not a<br/>verified identification"]:::user
+
+    A --> B
+    B --> C
+    C --> D
+    D -- "no" --> E
+    D -- "yes" --> F
+    F --> G
+    G -- "yes" --> H
+    G -- "no" --> I
+    H --> J
+    I --> J
+
+    subgraph LEARNED["what it learned from, once, before any of this"]
+        direction LR
+        K["photos of the nine items,<br/>taken by hand"]:::user
+        L["each photo trimmed down<br/>to just the item"]:::work
+        M["it studies those trimmed<br/>photos and remembers what<br/>each item looks like"]:::work
+        K --> L --> M
+    end
+
+    M -. "this is the memory<br/>the comparison uses" .-> F
